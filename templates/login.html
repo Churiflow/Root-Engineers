@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso | TechSecure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#05070a] flex items-center justify-center min-h-screen">
+    <div class="bg-white/5 p-10 rounded-3xl border border-white/10 w-full max-w-sm">
+        <h2 class="text-green-500 font-black mb-6 text-center italic uppercase">Auth_Required</h2>
+        <form action="/login" method="POST" class="space-y-4">
+            <input type="text" name="username" placeholder="Usuario" class="w-full bg-black border border-white/10 p-3 rounded-xl text-white outline-none focus:border-green-500 text-sm">
+            <input type="password" name="password" placeholder="Contraseña" class="w-full bg-black border border-white/10 p-3 rounded-xl text-white outline-none focus:border-green-500 text-sm">
+            <button class="w-full bg-green-500 text-black font-bold py-3 rounded-xl hover:bg-green-400 transition">ENTRAR</button>
+        </form>
+    </div>
+</body>
+</html>
